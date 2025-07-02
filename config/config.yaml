@@ -1,0 +1,12 @@
+rutas:
+  base: "C:/Users/Juanse/OneDrive/Documentos/Data set PROYECTO"
+  exportaciones: "${rutas.base}/exportaciones_final.csv"
+  paises: "${rutas.base}/paises.csv"
+  vias: "${rutas.base}/vias.csv"
+  departamentos: "${rutas.base}/departamentos.csv"
+  salida: "${rutas.base}/data_clean.csv"
+
+parametros:
+  encoding: "utf-8-sig"
+  separador: ","
+  valor_no_declarado: "No Declarado"
