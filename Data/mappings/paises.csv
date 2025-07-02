@@ -1,0 +1,365 @@
+﻿Código,Nombre
+13,Afganistán
+15,Islas Åland
+17,Albania
+23,Alemania
+24,Antártida
+26,Armenia
+27,Aruba
+29,Bosnia y Herzegovina
+31,Burkina Faso
+37,Andorra
+40,Angola
+41,Anguila
+43,Antigua y Barbuda
+47,Antillas Neerlandesas
+53,Arabia Saudita
+59,Argelia
+63,Argentina
+69,Australia
+72,Austria
+74,Azerbaiyán
+77,Bahamas
+80,Bahrein
+81,Bangladesh
+83,Barbados
+87,Bélgica
+88,Belice
+90,Bermudas
+91,Bielorrusia
+93,Myanmar
+97,Bolivia
+98,"Bonaire, San Eustaquio y Saba"
+101,Botsuana
+102,Isla Bouvet
+105,Brasil
+108,Brunei Darussalam
+111,Bulgaria
+115,Burundi
+119,Bután
+127,Cabo Verde
+137,Islas Caimán
+141,Camboya
+145,"Camerún, República Unida del"
+149,Canadá
+159,Ciudad del Vaticano
+165,Islas Cocos (Keeling)
+169,Colombia
+173,Comoras
+177,"Congo, República del"
+183,Islas Cook
+187,Corea del Norte
+190,Corea del Sur
+193,Costa de Marfil
+196,Costa Rica
+198,Croacia
+199,Cuba
+200,Curazao
+203,Chad
+211,Chile
+215,China
+218,Taiwán
+221,Chipre
+229,Benín
+232,Dinamarca
+235,Dominica
+239,Ecuador
+240,Egipto
+242,El Salvador
+243,Eritrea
+244,Emiratos Árabes Unidos
+245,España
+246,Eslovaquia
+247,Eslovenia
+249,Estados Unidos
+251,Estonia
+253,Etiopía
+259,Islas Feroe
+267,Filipinas
+271,Finlandia
+275,Francia
+281,Gabón
+285,Gambia
+287,Georgia
+289,Ghana
+293,Gibraltar
+297,Granada
+301,Grecia
+305,Groenlandia
+309,Guadalupe
+313,Guam
+317,Guatemala
+325,Guayana Francesa
+327,Guernsey
+329,Guinea
+331,Guinea Ecuatorial
+334,Guinea-Bisáu
+337,Guyana
+341,Haití
+343,Islas Heard y McDonald
+345,Honduras
+351,Hong Kong
+355,Hungría
+361,India
+365,Indonesia
+369,Irak
+372,Irán
+375,Irlanda
+379,Islandia
+383,Israel
+386,Italia
+391,Jamaica
+399,Japón
+401,Jersey
+403,Jordania
+406,Kazajistán
+410,Kenia
+411,Kiribati
+412,Kirguistán
+413,Kuwait
+420,Laos
+426,Lesoto
+429,Letonia
+431,Líbano
+434,Liberia
+438,Libia
+440,Liechtenstein
+443,Lituania
+445,Luxemburgo
+447,Macao
+448,Macedonia
+450,Madagascar
+455,Malasia
+458,Malawi
+461,Maldivas
+464,Malí
+467,Malta
+468,Isla de Man
+469,Islas Marianas del Norte
+472,Islas Marshall
+474,Marruecos
+477,Martinica
+485,Mauricio
+488,Mauritania
+489,Mayotte
+493,México
+494,"Micronesia, Estados Federados de"
+496,Moldavia
+497,Mongolia
+498,Mónaco
+500,Montenegro
+501,Isla Montserrat
+505,Mozambique
+507,Namibia
+508,Nauru
+511,Isla de Navidad (Christmas)
+517,Nepal
+521,Nicaragua
+525,Níger
+528,Nigeria
+531,Isla Niue
+535,Isla Norfolk
+538,Noruega
+542,Nueva Caledonia
+545,Papúa Nueva Guinea
+548,Nueva Zelanda
+551,Vanuatu
+556,Omán
+566,Islas Ultramarinas Menores de EE. UU.
+573,Países Bajos
+576,Pakistán
+578,Islas Palaos
+579,Estado de Palestina
+580,Panamá
+586,Paraguay
+589,Perú
+593,Isla Pitcairn
+599,Polinesia Francesa
+603,Polonia
+607,Portugal
+611,Puerto Rico
+618,Catar
+628,Reino Unido
+640,República Centroafricana
+644,República Checa
+647,República Dominicana
+660,Reunión
+665,Zimbabue
+670,Rumania
+675,Ruanda
+676,Rusia
+677,Islas Salomón
+685,Sahara Occidental
+687,Samoa
+688,Serbia y Montenegro
+690,Samoa Americana
+693,San Bartolomé
+695,San Cristóbal y Nieves
+697,San Marino
+698,San Martín (Parte Francesa)
+699,San Martín (Parte Neerlandesa)
+700,San Pedro y Miquelón
+705,San Vicente y las Granadinas
+710,Santa Elena
+715,Santa Lucía
+720,Santo Tomé y Príncipe
+728,Senegal
+729,Serbia
+731,Seychelles
+735,Sierra Leona
+741,Singapur
+744,"Siria, República Árabe de"
+748,Somalia
+750,Sri Lanka
+756,"Sudáfrica, República de"
+759,Sudán
+760,Sudán del Sur
+764,Suecia
+767,Suiza
+770,Surinam
+772,Svalbard y Jan Mayen
+773,Esuatini (Swazilandia)
+774,Tayikistán
+776,Tailandia
+780,"Tanzania, República Unida de"
+783,Yibuti
+787,Territorio Británico del Océano Índico
+788,Timor Oriental
+800,Togo
+805,Tokelau
+810,Tonga
+815,Trinidad y Tobago
+820,Túnez
+823,Islas Turcas y Caicos
+825,Turkmenistán
+827,Turquía
+828,Tuvalu
+830,Ucrania
+833,Uganda
+845,Uruguay
+847,Uzbekistán
+850,Venezuela
+855,Vietnam
+863,Islas Vírgenes Británicas
+866,Islas Vírgenes de los Estados Unidos
+870,Fiyi
+875,Wallis y Futuna
+880,Yemen
+885,Yugoslavia (Serbia y Montenegro)
+888,República Democrática del Congo
+890,Zambia
+897,Zona Neutral Palestina
+999,No Declarado
+1,ZFPE AGROINDUST
+2,ZFP EL DORADO S
+3,ZFPCA ECOPETROL
+4,ZF CTIC-CENTRO
+129,ZFP Zofrandina.
+130,ZFPE Colmotores
+131,ZFPE Tablemac S
+132,ZFPE Fundación
+133,ZFPE Aceites Ci
+134,ZFPE Puerto Bri
+135,ZFPE Clinica Ca
+620,ZFPE Puerto Ind
+621,ZFP INTERNACIO
+622,ZFPE Fresenius
+623,ZFPE Destilería
+624,ZFPE Puerto Bah
+625,ZFPE Medical DU
+626,ZFPE Sociedad P
+631,ZFP Palermo.
+633,ZFP FEMSA
+634,ZFPE SYKES.
+635,ZFPE Sociedad P
+636,ZFPE Termotasaj
+637,ZFPE Sociedad P
+638,ZFPE GETCOM.
+650,ZFPE Centro Hos
+651,ZFPE PUERTO MAM
+652,ZFP INTERNACION
+653,ZFPE AGROINDUST
+655,ZFPE Plaza Mayo
+656,ZFPE Clínica de
+657,ZFPE Clínica Un
+791,ZFPE Sociedad P
+792,ZFP Repsol Expl
+794,ZFPE Empresa Co
+795,ZFPE Onelink Co
+796,ZFPCA Petrobras
+797,ZFPE Impala Ter
+900,ZFP Andina.
+902,ZFPE Gecelca 3.
+903,ZFPE CEMENTERA
+904,ZFPE Estractora
+905,ZFPE Olmue.
+907,ZFP Centro Log
+911,ZFP de Barranqu
+913,ZFP de Palmasec
+914,ZFP de Cúcuta
+915,ZFP de Santa Ma
+916,ZFP de Cartagen
+917,ZFP de Rionegro
+918,ZFP de la Cande
+919,ZFP de Bogotá
+920,ZFP de Pacífico
+924,ZFP Eje Cafeter
+925,ZFPE Cervecería
+926,ZFP Agroindustr
+928,ZFP La Cayena
+929,ZFP Internacion
+930,ZFPE BIO D FACA
+931,ZFPE Biocombust
+933,ZFPE Agroindust
+934,ZFP Parque Ind
+935,ZFPE Argos S.A
+936,ZFPE Gyplac S.A
+937,ZFPE Kcag
+939,ZFP Intexzona
+940,ZFP Tayrona S.A
+941,ZFP de Urabá S
+942,ZFPE Corferias.
+943,ZFP Las América
+944,ZFPE Ecodiesel
+945,ZFPE Estrategia
+947,ZF PERMANENTE ESPECIAL SIEMENS.
+948,ZFPE Pepsico Al
+949,ZF PERMANENTE ESPECIAL ACERÍAS PAZ DEL RÍO
+950,ZFPE de Servici
+951,ZFPE Vidrio And
+953,ZFPE Refinería
+954,ZFP de Occident
+955,ZFPE Sociedad P
+956,ZFPE de Servici
+957,ZFPE Colombina
+958,ZFPE Termoflore
+959,ZFPE Papelfibra
+960,ZFP de Tocancip
+961,ZFPE Telemark S
+962,ZFPE San Vicent
+963,ZFPE Cerámicas
+964,ZFPE Papeles de
+965,ZFPE Clínica Po
+966,ZFP Santander
+967,ZFPE Protisa
+968,ZFPE Praxair
+969,ZFPE Cencauca (
+972,ZFPE Econtac
+973,ZFPE Clínica lo
+974,ZFP Metropolita
+976,ZFPE Bioenergy
+977,ZFP Puerta de l
+979,ZFPE Productos
+980,ZFPE Sociedad P
+981,ZFPE Fundacion
+982,ZFPE Alimentos
+983,ZFPE Convergys
+984,ZFPE Procesador
+985,ZFP Internacion
+987,ZFP Brisa
+988,ZFPE Loma Fresc
+989,ZFP Parque Cent
+991,ZFP Conjunto In
+996,ZFPE Compañía O
+997,ZFP SurColombia
+998,ZFPE Sociedad P
