@@ -1,0 +1,12 @@
+rutas:
+  base: "C:/Users/Juanse/OneDrive/Documentos/Proyecto/proyecto-TECH"
+  exportaciones: "C:/Users/Juanse/OneDrive/Documentos/Proyecto/proyecto-TECH/Data/cleaned/exportaciones.csv"
+  paises: "C:/Users/Juanse/OneDrive/Documentos/Proyecto/proyecto-TECH/Data/mappings/paises.csv"
+  vias: "C:/Users/Juanse/OneDrive/Documentos/Proyecto/proyecto-TECH/Data/mappings/vias.csv"
+  departamentos: "C:/Users/Juanse/OneDrive/Documentos/Proyecto/proyecto-TECH/Data/mappings/departamentos.csv"
+  salida: "C:/Users/Juanse/OneDrive/Documentos/Proyecto/proyecto-TECH/data_clean.csv"
+
+parametros:
+  encoding: "utf-8-sig"
+  separador: ","
+  valor_no_declarado: "No Declarado"
