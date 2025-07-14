@@ -21,7 +21,7 @@ rutas:
     
     cleaned:
       exportaciones: "./Data/cleaned/exportaciones.csv"
-      data: "./Data/cleaned/expo_unificadas.csv"
+      data: "./Data/cleaned/exportaciones_clean.csv"
     
     mappings:
       paises: "./Data/mappings/paises.csv"

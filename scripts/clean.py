@@ -1,7 +1,10 @@
 import os
 import pandas as pd
+import sys
+sys.path.append('..')
+from utils.paths import get_data_path
 
-ruta_base = r"C:\Users\Juanse\OneDrive\Documentos\Data set PROYECTO"
+ruta_base = get_data_path('raw')
 
 columnas_mapeo = {
     "FECH": ["FECH"],
@@ -106,11 +109,11 @@ df_total = pd.concat(dataframes, ignore_index=True)
 
 # Conversión limpia de columnas float innecesarias
 for col in df_total.select_dtypes(include=["float", "float64", "float32"]).columns:
-    if (df_total[col].dropna() % 1 == 0).all():  # solo si todos son enteros
-        df_total[col] = df_total[col].astype("Int64")  # conserva los nulos
+    if (df_total[col].dropna() % 1 == 0).all():
+        df_total[col] = df_total[col].astype("Int64")
 
 # Guardar CSV con coma
-ruta_salida = os.path.join(ruta_base, "exportaciones_clean.csv")
+ruta_salida = get_data_path('cleaned', 'exportaciones_clean.csv')
 df_total.to_csv(ruta_salida, index=False, encoding="utf-8-sig", sep=",")
 
 # Resumen
