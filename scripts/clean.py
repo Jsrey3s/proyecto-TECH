@@ -1,5 +1,6 @@
 import os
 import pandas as pd
+import numpy as np
 import sys
 sys.path.append('..')
 from utils.paths import get_data_path
@@ -107,14 +108,22 @@ for carpeta in os.listdir(ruta_base):
 # Concatenar
 df_total = pd.concat(dataframes, ignore_index=True)
 
-if "CANTIDAD" in df_total.columns:
-    df_total["CANTIDAD"] = (
-        df_total["CANTIDAD"]
-        .astype(str)
-        .str.replace(",", ".")
-        .replace("nan", pd.NA)
-        .astype(float)
-    )
+columnas_num = ["CANTIDAD", "PNK", "FOBDOL", "AGRENA", "FLETES"]
+
+for col in columnas_num:
+    if col in df_total.columns:
+        df_total[col] = (
+            df_total[col]
+            .astype(str)
+            .str.strip()
+            .str.replace(",", ".")
+            .str.replace(r"[^\d.]", "", regex=True)
+            .str.replace(r"\.(?=.*\.)", "", regex=True)
+            .replace({"": np.nan, "nan": np.nan})
+            .astype(float)
+            .fillna(0.0)
+        )
+
 
 # Conversión limpia de columnas float innecesarias
 for col in df_total.select_dtypes(include=["float", "float64", "float32"]).columns:
