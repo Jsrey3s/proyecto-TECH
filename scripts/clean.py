@@ -107,6 +107,15 @@ for carpeta in os.listdir(ruta_base):
 # Concatenar
 df_total = pd.concat(dataframes, ignore_index=True)
 
+if "CANTIDAD" in df_total.columns:
+    df_total["CANTIDAD"] = (
+        df_total["CANTIDAD"]
+        .astype(str)
+        .str.replace(",", ".")
+        .replace("nan", pd.NA)
+        .astype(float)
+    )
+
 # Conversión limpia de columnas float innecesarias
 for col in df_total.select_dtypes(include=["float", "float64", "float32"]).columns:
     if (df_total[col].dropna() % 1 == 0).all():
