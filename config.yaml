@@ -27,6 +27,7 @@ rutas:
       paises: "./Data/mappings/paises.csv"
       vias: "./Data/mappings/vias.csv"
       departamentos: "./Data/mappings/departamentos.csv"
+      productos_top: "./Data/mappings/productos_top.csv"
 
 parametros:
   encoding: "utf-8-sig"
